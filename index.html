@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="https://use.fontawesome.com/197f56fa95.js"></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="js/main.js" type="text/javascript"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -298,4 +297,30 @@
             </div>
         </div>
     </footer>
+    <script>
+
+        var nav = $("nav").css("border-bottom");
+
+        $(".navbar-toggle").click(function() {
+
+            if  ( $("nav").attr("style") == undefined ) {
+
+                $("nav").css("border-bottom" , "1px solid rgb(231, 231, 231)");
+
+            } else {
+
+                $("nav").css('border-bottom', '');
+
+            }
+
+        });
+
+        $("nav li a").click(function() {
+
+            $(this).addClass('active');
+            $("nav li a").not(this).removeClass('active');
+
+        });
+
+    </script>
 </body>
