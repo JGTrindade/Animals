@@ -1,0 +1,542 @@
+/***************Header Section*************/
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a {
+	color: #fff;
+	background-color: transparent;
+}
+
+.navbar-default , .navbar {
+	background-color: transparent;
+	margin-bottom: 0;
+	border: none;
+	border-bottom: 1px solid transparent;
+}
+
+#background-pic .navbar-toggle {
+	float: left;
+	margin-right: 0;
+	margin-left: 15px;
+	border: none;
+}
+
+.navbar-toggle:focus, 
+.navbar-toggle,
+.navbar-toggle:hover {
+	background-color: rgb(128,200,62) !important; 
+}
+
+#background-pic .icon-bar {
+	background-color: #fff;
+}
+
+.form-control , .btn {
+	border-radius: 2px;
+}
+
+#navbar-collapse-1 button {
+	margin-bottom: 17px;
+	color: #fff;
+	background-color: rgb(128,200,62);
+	border-color: rgb(128,200,62);
+	letter-spacing: 1px;
+	font-weight: lighter;
+}
+
+.navbar-header button {
+	font-size: 0.750em;
+	color: #fff;
+	margin: 15px 15px 15px 0;
+}
+
+#presentation button {
+	color: #fff;
+	background-color: rgb(128,200,62);
+	border-color: rgb(128,200,62);
+}
+
+#background-pic {
+	position: relative;
+	background-image: url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+    width: 100%;
+    z-index: 10;
+}
+
+#background-pic:before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -10
+}
+
+h1 {
+	text-align: center;
+	font-size: 22px;
+	font-weight: lighter;
+	line-height: 1.5;
+	color: #fff;
+}
+
+form {
+	margin: 30px 0;
+}
+
+.panel  {
+	background-color: transparent;
+}
+
+.panel-default {
+	border-color: transparent;
+}
+
+.panel-default > .panel-heading {
+	background-color: rgba(0,0,0,0.2);
+	color: #fff;
+	border: none;
+}
+
+#presentation li {
+	border: none;
+	color: #fff;
+	background-color: rgba(0,0,0,0.2);
+	font-size: 12px;
+	
+}
+
+#presentation li span {
+	color: rgb(21,151,187);
+	background-color: transparent;
+}
+
+/******************Ads Section****************/
+
+#ads {
+	padding-top: 6.25%;
+	padding-bottom: 6.25%;
+}
+
+#ads p {
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+#ads p:last-of-type {
+	margin-bottom: 0;
+}
+
+/******************Dogs Section****************/
+
+figure {
+	position: relative;
+}
+
+figure p  {
+	position: absolute;
+	top: 6px;
+	left: 7px;
+	font-size: 9px;
+	color: #e7e7e7;
+}
+
+img[alt="Trophy"] {
+	margin-right: 10px;
+	width: 50px;
+	height: 52px;
+}
+
+figure img {
+	box-shadow: inset 0px 20px 20px 0px #000;
+}
+
+#dogs {
+	padding: 20px 0;
+	background-color: rgb(246,251,254);
+}
+
+#dogs .container .row:first-of-type {
+	clear: both;
+}
+
+#dogs h2 {
+	width: 36.084%;
+	min-width: 260.531px;
+	margin: 0 auto 20px;
+	line-height: 52px;
+	font-size: 1.3em;
+}
+
+#dogs h3 {
+	font-size: 0.875em;
+}
+
+#dogs p {
+	font-size: 0.875em;
+}
+
+.thumbnail {
+	background-color: rgb(246,251,254);
+	border: none;
+	margin-bottom: 0;
+}
+
+#dogs .caption {
+	padding-top: 0;
+	padding-left: 0;
+}
+
+#dogs button {
+	display: block;
+	width: 145px;
+	margin: 7px auto 0;
+	padding: 0 10px 0 0;
+	line-height: 27px;
+	border-radius: 20px;
+	border-color: rgb(128,200,62);
+	font-size: 0.875em;
+	color: #777;
+}
+
+#dogs button img {
+	max-width: 28px;
+	max-height: 27px;
+	margin-right: 5px;
+}
+
+/****************Footer***************/
+
+#pre-footer {
+	width: 100%;
+	height: 5px;
+	background-color: rgb(73, 176, 243);
+}
+
+footer {
+	padding-bottom: 20px;
+	background-color: rgb(43,85,101);
+	color: rgb(175,197,208);
+}
+
+footer h4 {
+	font-size: 14px !important;
+	margin: 15px 0 7px;
+}
+
+footer li {
+	margin-bottom: 3px;
+	font-size: 12px;
+}
+
+footer .row div:last-child > ul {
+	margin-bottom: 20px;
+}
+
+/**************Social****************/
+
+#social-up div , #social-down div {
+	width: 30px;
+	display: inline-block;
+	transform: skewX(-25deg);
+	padding: 2px 4px;
+	font-size: 18px;
+}
+
+#social #social-up {
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+#social #social-down {
+	margin-bottom: 0;
+}
+
+#social .fa {
+	transform: skewX(25deg);
+}
+
+#social-up a:first-child div {
+border-right: 1px solid #fff;
+padding-right: 30px;
+}
+
+#social-up a:last-child div {
+border-left: 1px solid #fff;
+padding-left: 10px;
+}
+
+#social-down a:nth-child(2) {
+	margin: 0 2px;
+}
+
+#social #social-down div {
+	background-color: #fff;
+}
+
+#social-up a {
+	color: #fff ;
+}
+
+#social-down a {
+	color: rgb(43,85,101);
+}
+
+/***********************End of Social**********************/
+
+/***********************End of Footer**********************/
+
+/**********************Media Queries***********************/
+
+@media screen and (min-width: 612px) and (max-width: 767px) {
+
+figure {
+	margin: 1em 40px;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+/***************Header Section*************/
+
+.navbar-default, .navbar {
+	background-color: #fff;
+	border-radius: 0;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a {
+	color: gray;
+	
+}
+
+.navbar-default .navbar-nav a.active, .navbar-default .navbar-nav a:hover, .navbar-default .navbar-nav a:focus {
+	border-bottom: 3px solid rgb(73, 176, 243);
+}
+
+.nav li a {
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#navbar-collapse-1 button {
+	float: right;
+	margin-bottom: 8px;
+	padding: 6px 25px;
+}
+
+form {
+	width: 100%;
+	padding: 1%;
+	margin: 100px auto;
+	background-color: rgba(0,0,0,0.2);
+}
+
+form div:first-child {
+	display: inline-block;
+	width: 84.763%;
+	margin-right: 0.5%;
+	margin-bottom: 0;
+}
+
+form div:last-child {
+	display: inline-block;
+	/*width: 13.237466666666666%;*/
+	margin-left: 0.5%;
+	margin-bottom: 0;
+}
+
+#presentation button {
+	padding: 6px 25px;
+	margin-bottom: 2px;
+	letter-spacing: 1px;
+	font-weight: lighter;
+}
+
+h1 {
+	margin: 50px 0 0;
+	margin-bottom: 0;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #f5f5f5;
+}
+
+/*******************Ads Section*****************/
+
+#ads .row div:nth-child(2) {
+	margin: 20px;
+}
+
+/*****************Dogs Section*****************/
+
+#dogs h2 {
+	width: 36.184%;
+}
+
+figure {
+	margin: 1em 40px;
+}
+
+#dogs button {
+	margin-bottom: 20px;
+}
+
+/*****************Footer Section***************/
+
+footer .row div.col-md-3:first-child, footer .row div.col-md-3:nth-child(2) {
+	margin-bottom: 40px;
+}
+
+footer .row div.col-md-3:last-child ul {
+	margin-bottom: 30px;
+}
+
+
+}
+
+@media screen and (min-width: 992px) {
+
+/***************Header Section*************/
+
+.navbar-default, .navbar {
+	background-color: #fff;
+	border-radius: 0;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a {
+	color: gray;
+	
+}
+
+.navbar-default .navbar-nav a.active, .navbar-default .navbar-nav a:hover, .navbar-default .navbar-nav a:focus {
+	border-bottom: 3px solid rgb(73, 176, 243);
+}
+
+.nav li a {
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#navbar-collapse-1 button {
+	float: right;
+	margin-bottom: 8px;
+	padding: 6px 25px;
+}
+
+form {
+	width: 40%;  
+	min-width: 456.50px;
+	padding: 0.630%;
+	margin: 100px auto;
+	background-color: rgba(0,0,0,0.2);
+}
+
+form div:first-child {
+	display: inline-block;
+	width:  75.929%;
+	margin-right: 0.796%;
+	margin-bottom: 0;
+}
+
+form div:last-child {
+	display: inline-block;
+	width: 22.479%;
+	margin-left: 0.796%;
+	margin-bottom: 0;
+}
+
+#presentation button {
+	padding: 6px 25px;
+	margin-bottom: 2px;
+	letter-spacing: 1px;
+	font-weight: lighter;
+}
+
+h1 {
+	width: 57.073%;
+	min-width: 650.625px;
+	margin: 50px auto 0;
+	text-align: left;
+	margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #f5f5f5;
+}
+
+#breeds {
+	margin-bottom: 40px;
+	background-color: rgba(0,0,0,0.1);
+}
+
+#breeds h2 {
+	margin-left: 15px;
+	color: #fff;
+	font-size: 18px;
+}
+
+#breeds h3 {
+	width: 14.005%;
+	padding-left: 15px;
+	color: #fff;
+	font-size: 14px;
+}
+
+#breeds .row {
+	padding-top: 20px;
+	clear: both;
+}
+
+#presentation li {
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: lighter;
+	background-color: transparent;
+}
+
+#breeds .badge {
+	font-weight: lighter;
+}
+
+/************Dogs Section***********/
+
+#dogs {
+	padding-top: 40px;
+}
+
+#dogs h2 {
+	width: 100%;
+	margin-bottom: 30px;
+	font-size: 26px;
+}
+
+#dogs button {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/************Footer Section***********/
+
+#social-up , #social-down {
+	text-align: left;
+}
+
+#social #social-up {
+	padding-left: 0;
+}
+
+/*footer h4 , footer ul , footer li {
+	display: inline-block;
+}*/
+
+}
+
